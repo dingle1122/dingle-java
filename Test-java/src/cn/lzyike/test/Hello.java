@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Scanner;
 
 /**
  * @author dingle
@@ -12,8 +13,12 @@ import java.io.InputStream;
  */
 public class Hello {
 	public static void main(String[] args) {
-		String fileName="hello.txt";
-		String dirName="mode";
+		@SuppressWarnings("resource")
+		Scanner sc=new Scanner(System.in);
+		System.out.println("请输入目录名:");
+		String dirName=sc.nextLine();
+		System.out.println("请输入文件名:");
+		String fileName=sc.nextLine();
 		File f=new File(dirName+"/"+fileName);
 		String fs=new String();
 		InputStream is=null;
