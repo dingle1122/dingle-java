@@ -1,1 +1,2 @@
 hello,word!
+这是hello word测试文件！
