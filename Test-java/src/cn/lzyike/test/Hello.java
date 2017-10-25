@@ -9,7 +9,8 @@ import java.io.InputStream;
 public class Hello {
 	public static void main(String[] args) {
 		String fileName="hello.txt";
-		File f=new File("mode/"+fileName);
+		String dirName="mode";
+		File f=new File(dirName+"/"+fileName);
 		String fs=new String();
 		InputStream is=null;
 		try {
