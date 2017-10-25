@@ -6,6 +6,10 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 
+/**
+ * @author dingle
+ * 这是一个测试类
+ */
 public class Hello {
 	public static void main(String[] args) {
 		String fileName="hello.txt";
