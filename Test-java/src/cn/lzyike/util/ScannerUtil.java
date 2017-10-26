@@ -22,7 +22,7 @@ public class ScannerUtil {
 	 * @return 用户输入内容不为空时返回输入值，否则返回默认值
 	 */
 	public static String getInputString(String defaultString) {
-		String context=sc.nextLine();
+		String context=getInputString();
 		return StringUtil.isEmpty(context)? defaultString:context;
 	}
 }
