@@ -4,18 +4,4 @@
 
 > hello 
 
-    hello
-    test
-
-
-
-
-
-    <Directory />
-        AllowOverride none
-        Require all denied
-        Options None
-    </Directory>
-    
-    
-
+    *** haha ***
