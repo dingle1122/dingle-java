@@ -64,6 +64,6 @@ public class Hello {
 		System.out.println("\n------------------------------调用kotlin代码---------------------------------");
 		cn.lzyike.kotlin.HelloKt.test();
 		MyKotlin mk=new MyKotlin();
-		mk.testMyKT("word");
+		mk.testMyKT("dingle1122");
 	}
 }
