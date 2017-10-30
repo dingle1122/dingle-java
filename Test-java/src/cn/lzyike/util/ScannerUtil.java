@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 
  * @author dingle
- *
+ *这是一个字符串通用类
  */
 public class ScannerUtil {
 	private static Scanner sc=new Scanner(System.in);

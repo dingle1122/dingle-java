@@ -2,7 +2,7 @@ package cn.lzyike.util;
 /**
  * 
  * @author dingle
- *
+ *这是一个接收通用类
  */
 public class StringUtil {
 	/**
